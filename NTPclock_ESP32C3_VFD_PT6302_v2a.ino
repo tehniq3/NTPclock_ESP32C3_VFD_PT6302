@@ -322,7 +322,7 @@ void displayScreen(struct tm* t) {
     case 1: 
       { 
         String day = getDayName(t->tm_wday);
-        if (day.length() >= 8) display = getTimeStringShort(t) + "  " + day;
+        if (day.length() >= 7) display = getTimeStringShort(t) + "  " + day;  // corectie rapida pentru Sambata
         else display = getTimeString(t) + "  " + day;
       }
       break;
@@ -352,7 +352,7 @@ void displayScreen(struct tm* t) {
       break;
       
     case 5: 
-      sprintf(buf, "Pres:%.1f mmHg  ", pressure * 0.750062);
+      sprintf(buf, "Pres:%.1f mmHg  ", (pressure * 0.750062)+10.);  // corectie pentru presiune relativa
       display = String(buf);
       break;
       
