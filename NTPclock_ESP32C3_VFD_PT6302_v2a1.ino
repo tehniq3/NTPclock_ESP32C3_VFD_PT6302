@@ -355,7 +355,7 @@ void displayScreen(struct tm* t) {
       break;
       
     case 5: 
-      sprintf(buf, "Pres:%.1f mmHg  ", pressure * 0.750062);
+      sprintf(buf, "Pres:%.1f mmHg  ", (pressure * 0.750062)+10.);  // corectie rapida pentru presiunea relativa
       display = String(buf);
       break;
       
