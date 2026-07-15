@@ -1,3 +1,5 @@
+// original: https://www.elektroda.pl/rtvforum/topic3762233.html
+
 #include <SPI.h>
 #define CS 10
 //SPI pins
