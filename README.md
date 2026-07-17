@@ -1,7 +1,7 @@
 # NTPclock_ESP32C3_VFD_PT6302
 based on info from https://www.elektroda.pl/rtvforum/topic3762233.html for NBOX VFD display
 
-my article: https://nicuflorica.blogspot.com/2026/07/ceas-ntp-cu-esp32-c3-mini-si-afisaj-vdf.html
+1st article: https://nicuflorica.blogspot.com/2026/07/ceas-ntp-cu-esp32-c3-mini-si-afisaj-vdf.html
 
 2nd article:
 https://nicuflorica.blogspot.com/2026/07/ceas-ntp-cu-informatii-de-pe-open-meteo.html
